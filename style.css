@@ -3,7 +3,6 @@
     padding: 0;
     border: 0;
     font-size: 100%;
-    vertical-align: baseline;
 }
 
 body {
@@ -87,7 +86,7 @@ p {
 
 .product {
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(255, 115, 243);
 }
 
@@ -123,4 +122,8 @@ p {
     color: #f3b0ff;
     font-size: 25px;
     margin: 50px;
+}
+
+.menu {
+    padding-top: 50px;
 }

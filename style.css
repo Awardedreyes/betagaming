@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 10px;
+
+}
+
+.logo a {
+    font-style: normal;
+    text-decoration:none;
+    color: rgb(255, 115, 243);
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 10px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    background: #303030;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.ubicacion {
+    align-items: end;
+    margin-top: 50px;
+    font-size: 15px;
+    color: darkgray;
+    border-top: 2px dashed #303030;
+    margin-bottom: 30px;
+}
+
+.hardware {
+    font-size: 18px;
+    color: darkgray;
+    text-transform: uppercase;
+}
+
+.photo {
+    border: dashed rgb(255, 115, 243);
+    width: 300px;
+}
+
+.product {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgb(255, 115, 243);
+}
+
+.catalogo {
+    font-size: 30px;
+    display: block;
+    text-transform: uppercase;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.catalogo a:hover {
+    background: #303030;
+}
+
+.catalogo a {
+    background: #141414;
+    margin-top: 5px;
+    display: inline-block;
+    color: darkcyan;
+    padding: 23px 10px;
+    border: 2px dashed #303030;
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+    color: #f3b0ff;
+    font-size: 25px;
+}
+
+.contacto {
+    color: #f3b0ff;
+    font-size: 25px;
+    margin: 50px;
+}

@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: 0;
+    box-sizing: border-box;
     font-size: 100%;
 }
 
@@ -22,11 +22,6 @@ body {
     z-index: 100;
 }
 
-.navbar{
-    display: flex;
-    margin-right: 10px;
-}
-
 .logo{
     margin-left: 10px;
 
@@ -35,22 +30,9 @@ body {
 .logo a {
     font-style: normal;
     text-decoration:none;
-    color: rgb(255, 115, 243);
+    color: rgb(255, 49, 117);
     text-transform: uppercase;
     font-size: 25px;
-}
-
-.navbar a {
-    display: block;
-    padding: 23px 10px;
-    color: aliceblue;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 15px;
-}
-
-.navbar a:hover {
-    background: #303030;
 }
 
 .header {
@@ -80,14 +62,14 @@ p {
 }
 
 .photo {
-    border: dashed rgb(255, 115, 243);
+    border: dashed rgb(255, 49, 117);
     width: 300px;
 }
 
 .product {
     text-transform: uppercase;
     font-size: 30px;
-    color: rgb(255, 115, 243);
+    color: rgb(255, 49, 117);
 }
 
 .catalogo {
@@ -114,7 +96,7 @@ p {
 
 .title {
     text-align: center;
-    color: #f3b0ff;
+    color: rgb(255, 49, 117);
     font-size: 25px;
 }
 
@@ -126,4 +108,47 @@ p {
 
 .menu {
     padding-top: 50px;
+}
+
+.navbar{
+    max-width: 900px;
+    display: flex;
+    list-style: none;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 10px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    background: #303030;
+}
+.desplegue{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color:#171717;
+    border: groove rgb(255, 49, 117);
+}
+
+.navbar li:hover .desplegue{
+    display: block;
+}
+
+.desplegue li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
+}
+
+#html{
+    padding: 20px;
+    max-width: 900px;
 }

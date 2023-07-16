@@ -92,6 +92,7 @@ p {
     padding: 23px 10px;
     border: 2px dashed #303030;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .title {
@@ -146,6 +147,45 @@ p {
     color: white;
     text-decoration: none;
     padding: 15px 15px 15px 20px;
+}
+
+.new{
+    text-transform: uppercase;
+    color: rgb(255, 49, 117);
+    animation: 2s rgb infinite linear;
+}
+
+.catalogon {
+    font-size: 30px;
+    display: block;
+    text-transform: uppercase;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.catalogon a:hover {
+    background: #303030;
+}
+
+.catalogon a {
+    border: 7px solid rgb(255, 49, 117);
+    color: aliceblue;
+    background: #141414;
+    margin-top: 5px;
+    display: inline-block;
+    padding: 23px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    animation: 2s rgb infinite linear;
+}
+
+@keyframes rgb{
+    to{
+        filter: hue-rotate(0deg);
+    }
+    from{
+        filter: hue-rotate(360deg);
+    }
 }
 
 #html{
